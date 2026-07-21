@@ -1,9 +1,13 @@
----
-layout: post
-title: "Predicting Global Electricity Access Using Machine Learning"
-date: 2026-07-17
----
 # Predicting Global Electricity Access Using Machine Learning
+
+## Project Blog
+
+A stakeholder-focused article is included as a GitHub Pages post:
+
+- `_posts/2026-07-21-lighting-the-way-global-electricity-access.md`
+
+The article clearly presents the three business questions, corresponding analytical solutions, findings for stakeholders, model limitations, and supporting visualizations.
+
 
 ## Project Motivation
 Access to electricity is a key indicator of economic and social development. In many countries, electricity access is closely linked to infrastructure, education, technology adoption, and urbanization. The goal of this project is to explore which factors are most strongly associated with electricity access and to build a machine learning model that can predict electricity access levels across countries.
@@ -53,6 +57,10 @@ Selected predictor variables include:
 - `P_Data_Extract_From_Jobs.zip` — dataset files used in the analysis
 - `Project.ipynb` — Jupyter notebook containing the full analysis
 - `requirements.txt` — Python dependencies required to run the project
+- `_config.yml` — GitHub Pages and Jekyll configuration
+- `index.md` — blog homepage
+- `_posts/` — stakeholder-focused project article
+- `assets/images/` — visualizations used in the article
 
 ## Libraries Used
 The main Python libraries used in this project are:
@@ -87,7 +95,7 @@ In addition, the model was used to explore future electricity access scenarios f
 1. Clone this repository:
 
 ```bash
-git clone PrzemekJedruch/electricity-access-prediction
+git clone <your-repo-link>
 cd predicting-electricity-access
 ```
 

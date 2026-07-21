@@ -1,0 +1,8 @@
+title: Data Science for Development
+description: Machine learning insights into global electricity access
+author: Przemysław Jędruch
+theme: minima
+show_excerpts: true
+
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
