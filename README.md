@@ -87,7 +87,7 @@ In addition, the model was used to explore future electricity access scenarios f
 1. Clone this repository:
 
 ```bash
-git clone <your-repo-link>
+git clone PrzemekJedruch/electricity-access-prediction
 cd predicting-electricity-access
 ```
 
@@ -101,4 +101,23 @@ pip install -r requirements.txt
 ```bash
 jupyter notebook
 ```
-   
+
+## Licensing, Author, and Acknowledgements
+
+- **Author:** Przemysław Jędruch
+- **Data source:** [World Development Indicators (WDI)](https://databank.worldbank.org/source/world-development-indicators), accessed through the World Bank DataBank.
+- **Data citation:** World Bank. *World Development Indicators*. The dataset used in this project contains country-level development indicators for the period 2007–2016.
+- **Dataset license:** The indicators included in the project metadata are marked as [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) and are subject to the [World Bank Dataset Terms of Use](https://www.worldbank.org/ext/en/legal/terms-conditions/datasets).
+- **Indicator-level attribution:** Some indicators are compiled by the World Bank from third-party organizations. The original provider, statistical methodology, limitations, and licensing information should be verified in the included `Series - Metadata.csv` file before redistribution or reuse.
+- **Acknowledgements:** I would like to acknowledge the World Bank and the organizations contributing to the World Development Indicators database for making the data publicly available. I also acknowledge the Udacity Data Scientist Nanodegree program for the project framework and review criteria.
+
+This is an independent educational project. The analysis, model results, forecasts, and conclusions are the author's own and do not represent an endorsement by the World Bank, its data providers, or Udacity.
+
+## References
+
+- [World Bank DataBank — World Development Indicators](https://databank.worldbank.org/source/world-development-indicators)
+- [World Bank — Dataset Terms of Use](https://www.worldbank.org/ext/en/legal/terms-conditions/datasets)
+- [IBM — CRISP-DM overview](https://www.ibm.com/docs/en/spss-modeler/18.6.0?topic=dm-crisp-help-overview)
+- [scikit-learn — RandomForestRegressor documentation](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html)
+- [SHAP documentation](https://shap.readthedocs.io/)
+- [Udacity — Data Scientist Nanodegree](https://www.udacity.com/course/data-scientist-nanodegree--nd025)
